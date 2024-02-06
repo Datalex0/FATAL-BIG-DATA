@@ -11,4 +11,7 @@
 * pandas 0.18.0
 * typing 3.5.0
 
+* Filezilla 3.66.4
+* Putty 0.80
+* OCDB 10.0.20348.1
 
