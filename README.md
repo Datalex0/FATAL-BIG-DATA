@@ -1,6 +1,6 @@
 # FATAL BIG DATA
 
-## VERSION
+## VERSIONS
 cppy
 numpy 1.13.3
 happybase 1.1.0
