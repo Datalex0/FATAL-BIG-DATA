@@ -48,30 +48,3 @@ hadoop fs -copyFromLocal /root/datafromage_prepare.csv /user/root/
 hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.separator=',' -Dimporttsv.columns='HBASE_ROW_KEY,cf:codcli,cf:genrecli,cf:nomcli,cf:prenomcli,cf:cpcli,cf:villecli,cf:codcde,cf:datcde,cf:timbrecli,cf:timbrecde,cf:Nbcolis,cf:cheqcli,cf:barchive,cf:bstock,cf:codobj,cf:qte,cf:Colis,cf:libobj,cf:Tailleobj,cf:Poidsobj,cf:points,cf:indispobj,cf:libcondit,cf:prixcond,cf:puobj' data_fromage /user/root/datafromage_prepare.csv  
 
 
-
-
-
-
-
-
-
-
-
-6- Creer la table de sortie
-create 'dataw_fro03','cf'
-
-7- Sortir de Hbase
-exit
-
-8- Mettre le fichier csv dans la VM linux : sur Filezilla
-host : sftp://node175831-env-1839015-etudiant11.sh1.hidora.com
-user : root
-pwd : Diginamic34_
-port : 11490
-
-9- Copier coller le fichier dataw_fro03.csv sur le root 
-
-10- Ensuite envoyer le fichier de la machine linux vers hadoop attention il ne faut pas être dans le hadoop master !
-docker cp ./dataw_fro03.csv hadoop-master:/root
-
-
