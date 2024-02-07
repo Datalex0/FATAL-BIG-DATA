@@ -44,10 +44,7 @@ Il nous demande d'analyser ses données suivant 3 processus.
 * Le client souhaite explorer ses données mises en forme via une interface graphique interactive
 
 ### Réponse apportée :
-* Mise en place d'une base de données NoSQL HBase pour restructurer les données présentes sur les clusters Hadoop
-* Import via procédure TSV
-* Connexion ODBC entre Power BI et HBase
-* Création de dashboards via Power BI
+ 
 
 ## <ins> OUTILS et VERSIONS utilisés </ins>
 
@@ -74,9 +71,12 @@ Il nous demande d'analyser ses données suivant 3 processus.
 * sys
 * csv 1.0
 
+## RETOUR PROJET
 
+* Projet très concret
+* Adapté au temps imparti
+* Application de pas mal d’outils étudiés au préalable
+* A permis une meilleure compréhension d’Hadoop et Hbase
 
-Sources
-Exemples : 
-Structuration projet et expliquer notre logique
-Retour projet
+* Questionnement sur la confidentialité des données clients (RGPD)
+* Enoncé difficile à comprendre
