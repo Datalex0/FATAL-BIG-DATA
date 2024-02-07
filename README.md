@@ -44,7 +44,10 @@ Il nous demande d'analyser ses données suivant 3 processus.
 * Le client souhaite explorer ses données mises en forme via une interface graphique interactive
 
 ### Réponse apportée :
- 
+* Fichiers sur cluster Hadoop
+* import sur Hbase via une solution interne
+* ODBC servira d'API entre PowerBI et Hbase
+* Dashboards sur PowerBI
 
 ## <ins> OUTILS et VERSIONS utilisés </ins>
 
