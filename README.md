@@ -1,11 +1,14 @@
 # FATAL BIG DATA
 
-## <ins> CONTEXTE </ins>
+##
+### <ins> CONTEXTE </ins>
   
 Notre client, une fromagerie située en Mayenne, a un datawarehouse depuis 2004 représentant son système de fidélisation client par bon à découper sur leurs emballages produits. 
 Il nous demande d'analyser ses données suivant 3 processus.
 
-### Lot 1 : 
+##
+### <ins> Lot 1 </ins> :
+
 * Période 2006-2010
 * Départements 53, 61, 28
 * Sélection des 100 meilleurs commandes en fonction des quantités puis du nombre de timbres envoyés par le client.
@@ -22,7 +25,8 @@ Il nous demande d'analyser ses données suivant 3 processus.
 * Affichage des données demandées
 * Export en fichier CSV
 
-### Lot 2 :
+##
+### <ins> Lot 2 </ins> :
 * Période 2011-2016
 * Départements 22, 49, 53
 * Sélection des 100 meilleurs commandes en fonction des quantités et n'ayant pas de timbre client
@@ -40,7 +44,8 @@ Il nous demande d'analyser ses données suivant 3 processus.
 * Export en fichier CSV
 * Export de 2 PieCharts au format pdf
 
-### Lot 3 :
+##
+### <ins> Lot 3 </ins> :
 * Le client souhaite explorer ses données mises en forme via une interface graphique interactive
 
 ### Réponse apportée :
@@ -49,8 +54,10 @@ Il nous demande d'analyser ses données suivant 3 processus.
 * ODBC servira d'API entre PowerBI et Hbase
 * Dashboards sur PowerBI
 
-## <ins> OUTILS et VERSIONS utilisés </ins>
+## 
+### <ins> OUTILS et VERSIONS utilisés </ins>
 
+##
 ### <ins> Outils </ins>  
 * Hadoop
 * HBase
@@ -61,6 +68,7 @@ Il nous demande d'analyser ses données suivant 3 processus.
 * ODBC 10.0.20348.1
 * VM Linux
 
+##
 ### <ins> Librairies Python </ins>  
 * cppy
 * numpy 1.13.3
@@ -74,7 +82,8 @@ Il nous demande d'analyser ses données suivant 3 processus.
 * sys
 * csv 1.0
 
-## RETOUR PROJET
+##
+### <ins> Retour Projet </ins>
 
 * Projet très concret
 * Adapté au temps imparti
@@ -83,3 +92,13 @@ Il nous demande d'analyser ses données suivant 3 processus.
 
 * Questionnement sur la confidentialité des données clients (RGPD)
 * Enoncé difficile à comprendre
+
+##
+### <ins> Les éléments importants </ins> :
+* [Le dashboard Power BI converti au format PDF](SRC/Dashboard_le_bon_mayennais.pdf)
+* [Le process d'import TSV](SRC/Process_Import_TSV.md)
+* [La Présentation Powerpoint](SRC/Projet_Big_Data.ppt)
+* [La Présentation au format PDF](SRC/Projet_Big_Data_diapo.pdf)
+* Le code des mappers et reducers (en python)
+* Les exports CSV et PDF
+
